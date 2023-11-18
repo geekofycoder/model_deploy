@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Spam Classifier</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        button {
+            color: aliceblue;
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>EMAIL SPAM CLASSIFIER</h1>
+    <div>
+        <form method="post"> <textarea rows="12" cols="60" name="content" placeholder="Type or paste your email here" value="{{ text }}">{{ text }}</textarea>
+            <div>
+                <button>
+                    Submit
+                </button>
+            </div>
+         </form>
+    </div>
+          <div>
+          <p id="display"></p>
+      </div>
+  
+</body>
+</html>
